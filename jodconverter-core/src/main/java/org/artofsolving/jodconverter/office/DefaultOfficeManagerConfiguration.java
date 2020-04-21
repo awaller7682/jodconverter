@@ -94,6 +94,10 @@ public class DefaultOfficeManagerConfiguration {
         return this;
     }
 
+    public String getTemplateProfileDir(){
+        return this.templateProfileDir.getAbsolutePath();
+    }
+    
     /**
      * Sets the directory where temporary office profiles will be created.
      * <p>

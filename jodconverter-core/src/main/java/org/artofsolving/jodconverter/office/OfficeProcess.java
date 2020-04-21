@@ -72,8 +72,8 @@ class OfficeProcess {
         command.add(executable.getAbsolutePath());
         command.add("-accept=" + unoUrl.getAcceptString() + ";urp;");
         command.add("-env:UserInstallation=" + OfficeUtils.toUrl(instanceProfileDir));
-        command.add("-headless");
-        command.add("-nocrashreport");
+        //command.add("-headless");
+        //command.add("-nocrashreport");
         command.add("-nodefault");
         command.add("-nofirststartwizard");
         command.add("-nolockcheck");
